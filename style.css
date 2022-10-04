@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Noto+Sans&family=Nunito:wght@200&display=swap');
+
+:root{
+    --primary-color: #fcd34d;
+    --black-color: black;
+    /* --white-color: white; */
+}
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    padding: 1rem;
+    margin: auto;
+}
+
+.heading{
+    text-align: center;
+    padding: 1.7rem;
+    background-color: var(--primary-color);
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+        border: 1px solid black;
+        height: 10vh;
+        width: 80%;
+        margin: 1rem;
+        padding: 1rem;
+}
+
+button{
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+}
+
+#btn-translate {
+    width: 40%;
+    padding: 0.5rem 0.8rem;
+    font-size: medium;
+    border: var(--primary-color);
+    color: var(--black-color);
+    margin: 1rem;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+  background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 2em 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.5 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.footer .link{
+    color: var(--black-color);
+}
+
+.footer ul {
+      padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.footer p{
+    margin-top: 2rem;
+    padding: 0;
+}
